@@ -1,0 +1,178 @@
+/*
+Theme Name:   Twenty Seventeen Child
+Theme URI:    http://example.com
+Description:  Twenty Seventeen Child Theme
+Author:       Lydia Medina
+Author URI:   http://example.com
+Template: 	  twentyseventeen
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  twentyseventeen
+*/
+
+/**************************
+	HEADER
+**************************/
+
+.custom-header-media:before {
+	background: none; 
+}
+
+
+
+/**************************
+	SITE BRANDING
+**************************/
+
+.site-branding {
+    top: 0;   
+    padding-top: 48px;
+    width: auto;    
+}
+
+
+/**************************
+	SITE TITLE
+**************************/
+.site-title {
+	font-family: 'Righteous', cursive;
+	font-size: 1.875em;
+	text-transform: none;
+}
+
+
+/**************************
+	NAVIGATION
+**************************/
+.navigation-top {
+	top: 0;
+	bottom: auto;
+	left: auto; 	
+	right: 0;
+	width: auto;
+} 
+
+.icon {
+	display: none; 
+}
+
+body.colors-custom,
+.colors-custom .navigation-top,
+.colors-custom .main-navigation ul {
+	background-color: transparent !important; 
+	border: none;
+}
+
+.colors-custom .navigation-top a {
+	color: #402436 !important; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 0.875em;
+	text-transform: uppercase; 
+}
+
+
+
+/**************************
+	HEADER CONTENT AREA
+**************************/
+
+.custom-textbox {
+	position: absolute;
+    background-color: rgba(250, 250, 250, 0.7);
+    left: 25%;
+    right: 25%;
+    top: 35%;
+}
+
+.custom-textbox-content {
+		
+}
+
+div.custom-textbox-content h1 {
+	font-family: 'Roboto Slab', serif;	
+	color: #402436;
+	
+}
+
+div.custom-textbox-content p {
+	font-family: 'Roboto Slab', serif;
+	color: #A6A1A6;
+	 
+	
+	
+}
+
+/**************************
+	SECTIONS
+**************************/
+
+#post-70 {
+	background-color: #A6A1A6; 
+}
+
+#panel1 {
+	background-color: #FFFFFF;
+}
+
+#panel2 {
+	background-color: #F2F2F2;
+}
+
+#panel3 {
+	background-color: #402436;
+}
+
+
+/**************************
+	MEDIA QUERIES
+**************************/
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	
+	/* Header Content Area */
+	div.custom-textbox-content h1 {		
+		padding-left: 5%; 
+		margin-bottom: 0;
+		font-size: 5.125em;
+}
+
+	div.custom-textbox-content p {		
+		font-size: 1.875em;
+		padding-left: 5%;
+		padding-right: 20%; 	
+}	
+	
+	/* Site Title */
+	.site-title {	
+	font-size: 1.875em;
+	
+}
+
+}
+
+
+
+
+
+
+
