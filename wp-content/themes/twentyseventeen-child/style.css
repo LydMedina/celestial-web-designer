@@ -22,6 +22,10 @@ Text Domain:  twentyseventeen
 	position: relative;
 }
 
+.has-header-image.twentyseventeen-front-page .custom-header {
+	height: 190px;	
+}
+
 
 
 /**************************
@@ -92,11 +96,13 @@ body.colors-custom,
     background-color: rgba(250, 250, 250, 0.7);
     left: 12%;
     right: 12%;
-    top: 28%;
+    top: 40%;
+	width: 256px;
+    height: 115px;
 }
 
 .custom-textbox-content {
-    padding-left: 0.625em;
+    padding: 0 0.625em;
 }
 
 div.custom-textbox-content h1 {
@@ -122,23 +128,29 @@ div.custom-textbox-content p {
 /**************************
 	SECTIONS
 **************************/
-
+/* Portfolio */
 #post-70 {
 	background-color: #A6A1A6; 
 }
-
+/* About */
 #panel1 {
 	background-color: #FFFFFF;
 }
-
+/* Services */
 #panel2 {
 	background-color: #F2F2F2;
 }
-
+/* Contact */
 #panel3 {
-	background-color: #402436;
+	background-color: #A6A1A6;
 }
 
+header.entry-header h2.entry-title {
+	text-align: center; 
+	font-size: 1em; 
+	font-family: 'Righteous', cursive;
+	color: #402436;
+}
 
 /**************************
 	MEDIA QUERIES
