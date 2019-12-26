@@ -1,6 +1,6 @@
 <?php
 /**
- * Displays header site branding
+ * Displays child header site branding
  *
  * @package WordPress
  * @subpackage Twenty_Seventeen
