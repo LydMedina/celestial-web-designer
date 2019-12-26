@@ -1,6 +1,6 @@
 <?php
 /**
- * Displays header media child
+ * Displays child header media child
  *
  * @package WordPress
  * @subpackage Twenty_Seventeen
@@ -21,9 +21,6 @@
 		</div>
 	</div>
 	</div>	
-</div>
-	
-
-	<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
+</div>	
 
 </div><!-- .custom-header -->
