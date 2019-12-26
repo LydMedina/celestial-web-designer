@@ -1,6 +1,6 @@
 <?php
 /**
- * The header for our theme
+ * The child header for our theme
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
@@ -32,6 +32,7 @@
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
 				<div class="wrap">
+					<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 				</div><!-- .wrap -->
 			</div><!-- .navigation-top -->
