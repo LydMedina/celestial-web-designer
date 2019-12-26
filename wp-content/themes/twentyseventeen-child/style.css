@@ -26,15 +26,14 @@ Text Domain:  twentyseventeen
 	height: 255px;	
 }
 
-.custom-header-media {
-    top: 50px;
+.custom-header-media {    
 	position: relative;
 }
 
 /**************************
 	SITE BRANDING
 **************************/
-.site-branding {
+/*.site-branding {
 	text-align: center; 
 	padding-top: 2em; 
 	margin-bottom: 0px;
@@ -42,14 +41,14 @@ Text Domain:  twentyseventeen
     padding: 0;
     top: 0;
     margin-top: 15px;
-}
+}*/
 
 /**************************
 	SITE TITLE
 **************************/
-.site-title {
+div.site-branding-text h1.site-title a {
 	font-family: 'Righteous', cursive;
-	font-size: 1em;
+	font-size: 16px;
 	text-transform: none;
 	font-weight: 400; 
 	letter-spacing: normal;
@@ -59,32 +58,33 @@ Text Domain:  twentyseventeen
 	NAVIGATION
 **************************/
 div.navigation-top {
-	background: #F2F2F2 !important;
-    position: absolute;
-    top: 0;
+	background: #F2F2F2 !important;   
     display: block;	
 	width: 100%;
 	border: none;
 }
 
+.navigation-top .wrap {
+	content: '';
+	clear: both;
+	display: inline-flex;
+	width: 100%; 
+}
+
 button.menu-toggle {
-	margin-right: 22px;
+	padding: 16px;
+    margin-right: 0;
+    margin-left: 29%
 }
 
 .menu {
 	background: #F2F2F2 !important;
 }
 
-.icon {
-	display: none; 
-}
+
 
 .colors-custom .navigation-top a {
-	color: #402436 !important; 
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 0.875em;
-	text-transform: uppercase; 
+	color: #402436 !important;
 }
 
 /**************************
@@ -224,7 +224,7 @@ footer {
 
 	
 	/* Site Title */
-	.site-title {	
+	.site-title a{	
 	font-size: 1.875em;
 	
 }
