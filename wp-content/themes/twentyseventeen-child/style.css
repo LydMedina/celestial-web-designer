@@ -14,16 +14,12 @@ Text Domain:  twentyseventeen
 	HEADER
 **************************/
 
-.custom-header-media:before {
-	background: none; 
-}
-
 .has-header-image .custom-header-media img {
 	position: relative;
 }
 
 .has-header-image.twentyseventeen-front-page .custom-header {
-	height: 255px;	
+		
 }
 
 .custom-header-media {    
@@ -48,10 +44,11 @@ Text Domain:  twentyseventeen
 **************************/
 div.site-branding-text h1.site-title a {
 	font-family: 'Righteous', cursive;
-	font-size: 16px;
+	font-size: 1rem;
 	text-transform: none;
 	font-weight: 400; 
 	letter-spacing: normal;
+	padding-left: 28px;
 }
 
 /**************************
@@ -77,11 +74,21 @@ button.menu-toggle {
     margin-left: 29%
 }
 
+svg.icon.icon-bars {
+	margin-left: 35.094px;
+}
+
+svg.icon.icon-close {
+	margin-left: 35.094px;
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
 .menu {
 	background: #F2F2F2 !important;
 }
-
-
 
 .colors-custom .navigation-top a {
 	color: #402436 !important;
@@ -92,8 +99,7 @@ button.menu-toggle {
 **************************/
 
 .custom-textbox {
-	position: absolute;
-    background: rgba(250, 250, 250, 0.7);
+	position: absolute;    
     left: 8%;
     right: 8%;
     top: 10%;
