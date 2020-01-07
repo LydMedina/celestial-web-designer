@@ -26,6 +26,10 @@ Text Domain:  twentyseventeen
 	position: relative;
 }
 
+.custom-header-media:before {
+	background: none; 
+}
+
 /**************************
 	SITE BRANDING
 **************************/
@@ -85,11 +89,11 @@ nav.main-navigation {
 	position: absolute;    
     left: 8%;
     right: 8%;
-    top: 10%;
+    top: 10%;	 
 }
 
 .custom-textbox-content {
-    padding: 0 0.625em;
+
 }
 
 div.custom-textbox-content h1 {
@@ -104,7 +108,7 @@ div.custom-textbox-content h1 {
 
 div.custom-textbox-content p {
 	font-family: 'Roboto Slab', serif;
-	color: #A6A1A6;
+	color: #ffffff;
 	font-size: 5vw;
 	margin-bottom: 6px; 
 	line-height: normal; 	
