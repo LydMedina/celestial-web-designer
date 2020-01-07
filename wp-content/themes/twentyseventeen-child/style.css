@@ -19,7 +19,7 @@ Text Domain:  twentyseventeen
 }
 
 .has-header-image.twentyseventeen-front-page .custom-header {
-		
+	height: 37vh;
 }
 
 .custom-header-media {    
@@ -29,22 +29,14 @@ Text Domain:  twentyseventeen
 /**************************
 	SITE BRANDING
 **************************/
-/*.site-branding {
-	text-align: center; 
-	padding-top: 2em; 
-	margin-bottom: 0px;
-    position: absolute;
-    padding: 0;
-    top: 0;
-    margin-top: 15px;
-}*/
+
 
 /**************************
 	SITE TITLE
 **************************/
 div.site-branding-text h1.site-title a {
 	font-family: 'Righteous', cursive;
-	font-size: 1rem;
+	font-size: 5vw;
 	text-transform: none;
 	font-weight: 400; 
 	letter-spacing: normal;
@@ -56,43 +48,34 @@ div.site-branding-text h1.site-title a {
 **************************/
 div.navigation-top {
 	background: #F2F2F2 !important;   
-    display: block;	
-	width: 100%;
 	border: none;
 }
 
-.navigation-top .wrap {
-	content: '';
-	clear: both;
-	display: inline-flex;
-	width: 100%; 
+div.navigation-top div.wrap {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-between;
 }
 
-button.menu-toggle {
-	padding: 16px;
-    margin-right: 0;
-    margin-left: 29%
-}
-
-svg.icon.icon-bars {
-	margin-left: 35.094px;
-}
-
-svg.icon.icon-close {
-	margin-left: 35.094px;
-}
-
-.menu-toggle:focus {
-    outline: none;
+nav.main-navigation {
+	margin-left: auto; 
 }
 
 .menu {
 	background: #F2F2F2 !important;
 }
 
+.menu-toggle {
+	margin-top: 10px;
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
 .colors-custom .navigation-top a {
 	color: #402436 !important;
-}
+} 
 
 /**************************
 	HEADER CONTENT AREA
@@ -103,8 +86,6 @@ svg.icon.icon-close {
     left: 8%;
     right: 8%;
     top: 10%;
-	width: 254px;
-    height: 155px;
 }
 
 .custom-textbox-content {
@@ -114,7 +95,7 @@ svg.icon.icon-close {
 div.custom-textbox-content h1 {
 	font-family: 'Roboto Slab', serif;	
 	color: #402436;
-	font-size: 3em;
+	font-size: 10vw;
 	font-weight: 800;	
 	margin-bottom: 0;
 	margin-top: 0.25em;
@@ -124,7 +105,7 @@ div.custom-textbox-content h1 {
 div.custom-textbox-content p {
 	font-family: 'Roboto Slab', serif;
 	color: #A6A1A6;
-	font-size: 1em;
+	font-size: 5vw;
 	margin-bottom: 6px; 
 	line-height: normal; 	
 }
@@ -187,56 +168,11 @@ footer {
 	MEDIA QUERIES
 **************************/
 
-/* Extra small devices (portrait phones, less than 576px) */
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-
-}
-
-/*  Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
-}
-
-/*  Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-	
-	/* Header Content Area */
-	div.custom-textbox-content h1 {		
-		padding-left: 5%; 
-		margin-bottom: 0;
-		font-size: 5.125em;
-}
-
-	div.custom-textbox-content p {		
-		font-size: 1.875em;
-		padding-left: 5%;
-		padding-right: 20%; 	
-}	
-	
-	/* Site Branding */
+@media screen and (min-width: 30em) {
 	.site-branding {
-    top: 0;   
-    padding-top: 48px;
-    width: auto;    
+		padding: 1em 0;
+	}
 }
-
-	
-	/* Site Title */
-	.site-title a{	
-	font-size: 1.875em;
-	
-}
-
-}
-
 
 
 
