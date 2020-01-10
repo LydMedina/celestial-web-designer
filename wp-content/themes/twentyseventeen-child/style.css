@@ -14,18 +14,6 @@ Text Domain:  twentyseventeen
 	HEADER
 **************************/
 
-.has-header-image .custom-header-media img {
-	position: relative;
-}
-
-.has-header-image.twentyseventeen-front-page .custom-header {
-	height: 37vh;
-}
-
-.custom-header-media {    
-	position: relative;
-}
-
 .custom-header-media:before {
 	background: none; 
 }
@@ -53,6 +41,7 @@ div.site-branding-text h1.site-title a {
 div.navigation-top {
 	background: #F2F2F2 !important;   
 	border: none;
+	z-index: 2;
 }
 
 div.navigation-top div.wrap {
@@ -71,6 +60,7 @@ nav.main-navigation {
 
 .menu-toggle {
 	margin-top: 10px;
+	padding-right: 1.75em; 
 }
 
 .menu-toggle:focus {
@@ -89,7 +79,7 @@ nav.main-navigation {
 	position: absolute;    
     left: 8%;
     right: 8%;
-    top: 10%;	 
+    top: 27%;	 
 }
 
 .custom-textbox-content {
@@ -108,7 +98,7 @@ div.custom-textbox-content h1 {
 
 div.custom-textbox-content p {
 	font-family: 'Roboto Slab', serif;
-	color: #ffffff;
+	color: #402436;
 	font-size: 5vw;
 	margin-bottom: 6px; 
 	line-height: normal; 	
@@ -172,12 +162,56 @@ footer {
 	MEDIA QUERIES
 **************************/
 
-@media screen and (min-width: 30em) {
+@media (min-width: 30em) {
 	.site-branding {
 		padding: 1em 0;
 	}
+	.custom-textbox {
+		top: 16%;
+	}
 }
 
+@media (min-width: 37.5em) {
+	
+	div.wp-block-column {
+		flex-basis: 30% !important; 
+	}	
+	.wp-block-column:nth-child(2n) {
+		margin-left: 20px;
+		margin-right: 20px;
+	}	
+}
+
+@media (min-width: 48em) {
+	
+	.navigation-top .wrap {    
+    padding: 0.75em 2.416667em;
+	}
+	
+	.site-title {
+		margin-bottom: 10%; 
+	}
+	.custom-textbox {
+		top: 0;
+	}	
+	div.site-branding-text h1.site-title a {
+		font-size: 3vw; 
+	}	
+	
+	.main-navigation a.menu-scroll-down {
+		display: none; 
+	}
+	
+	.menu-top-nav-container .menu {
+		height: 50px; 
+	}
+	
+	.menu-item {
+		bottom: 25px; 
+	}
+	
+	
+}
 
 
 
