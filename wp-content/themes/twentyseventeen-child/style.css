@@ -56,6 +56,7 @@ nav.main-navigation {
 
 .menu {
 	background: #F2F2F2 !important;
+	text-transform: uppercase;
 }
 
 .menu-toggle {
@@ -110,23 +111,27 @@ div.custom-textbox-content p {
 /* Portfolio */
 #post-70 {
 	background: #A6A1A6; 
+	padding-top: 5%;
 }
 /* About */
 #panel1 {
 	background: #FFFFFF;
+	padding-top: 5%;
 }
 /* Services */
 #panel2 {
 	background: #F2F2F2;
+	padding-top: 5%;
 }
 /* Contact */
 #panel3 {
 	background: #A6A1A6;
+	padding-top: 5%;
 }
 
 header.entry-header h2.entry-title {
 	text-align: center; 
-	font-size: 1em; 
+	font-size: 4vw !important; 
 	font-family: 'Righteous', cursive;
 	color: #402436;
 }
@@ -177,8 +182,8 @@ footer {
 		flex-basis: 30% !important; 
 	}	
 	.wp-block-column:nth-child(2n) {
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: 20px !important;
+		margin-right: 20px !important;
 	}	
 }
 
@@ -196,11 +201,7 @@ footer {
 	}	
 	div.site-branding-text h1.site-title a {
 		font-size: 3vw; 
-	}	
-	
-	.main-navigation a.menu-scroll-down {
-		display: none; 
-	}
+	}		
 	
 	.menu-top-nav-container .menu {
 		height: 50px; 
@@ -210,14 +211,78 @@ footer {
 		bottom: 25px; 
 	}
 	
-	
+	.wp-block-column {
+		margin-left: 32px; 		
+	}	
 }
 
-@media (min-width: 768px) and (min-height: 1024px){
+@media (min-width: 48em) and (min-height: 64em){
 	.custom-textbox-content {
 		margin-top: 50%;
 	}
 }
+
+
+
+@media (min-width: 48.875em) {
+	.wp-block-column:not(:first-child) {
+    	margin-left: 0px;
+	}
+}
+
+@media (min-width: 75em) {
+	.panel-content .wrap{
+		max-width: 960px !important;
+	}
+	
+	.site-branding .wrap{
+		padding-left: 0px;		
+	}	
+	.site-title a {
+		padding-left: 0px !important; 
+	}
+	
+	header.entry-header h2.entry-title {
+		font-size: 2vw !important; 
+	}
+}
+
+@media (min-width: 84.6875em) {
+	.custom-textbox-content h1 {
+		font-size: 5vw !important;
+	}
+	
+	.custom-textbox-content p {
+		font-size: 3vw !important;
+	}
+	
+	.custom-textbox {
+		left: 12%;    	
+    	top: 15%;
+	}
+	
+	h1.site-title a {
+		font-size: 1.5rem !important; 
+	}
+}
+
+/*@media (min-width: 1400px){
+	.custom-textbox-content h1 {
+		font-size: 6vw !important;
+	}
+	
+	.custom-textbox-content p {
+		font-size: 4vw !important;
+	}
+	.custom-textbox {
+		left: 21%;
+    	right: 21%;
+    	top: 10%;
+	}
+	.site-branding .wrap {
+		padding-left: 10%;
+	}
+} */
 
 
 
