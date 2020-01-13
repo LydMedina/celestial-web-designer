@@ -213,6 +213,12 @@ footer {
 	
 }
 
+@media (min-width: 768px) and (min-height: 1024px){
+	.custom-textbox-content {
+		margin-top: 50%;
+	}
+}
+
 
 
 
