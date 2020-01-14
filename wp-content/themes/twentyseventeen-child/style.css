@@ -10,6 +10,10 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  twentyseventeen
 */
 
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 /**************************
 	HEADER
 **************************/
@@ -129,6 +133,10 @@ div.custom-textbox-content p {
 	padding-top: 5%;
 }
 
+form p {
+	font-family: 'Roboto Slab', serif;
+}
+
 header.entry-header h2.entry-title {
 	text-align: center; 
 	font-size: 4vw !important; 
@@ -136,11 +144,20 @@ header.entry-header h2.entry-title {
 	color: #402436;
 }
 
+p.has-text-align-center {
+	font-family: 'Roboto Slab', serif !important;
+}
+
 
 
 /**************************
 	CONTACT FORM 7
 **************************/
+input[type="submit"] {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase; 
+}
+
 .submit-button {
 	float: right;
 	background: #402436 !important;
@@ -153,19 +170,53 @@ header.entry-header h2.entry-title {
 footer {
 	background: #402436;
 }
-
-.site-info {
-	text-align: center; 
-}
-
 .site-footer {
 	border: none; 
 }
+.site-info {
+	text-align: center; 
+}
+.site-info p {
+	font-family: 'Open Sans', sans-serif;
+	color: #A6A1A6;
+	margin-bottom: 0px; 
+	margin-top: 25%;
+}
+.site-info a.imprint {
+	color: #A6A1A6 !important;
+	box-shadow: none; 
+}
+.site-info a:hover {
+	color: #fff !important;
+}
+.entry-content a:focus, .entry-content a:hover, .entry-summary a:focus, .entry-summary a:hover, .widget a:focus, .widget a:hover, .site-footer .widget-area a:focus, .site-footer .widget-area a:hover, .posts-navigation a:focus, .posts-navigation a:hover, .comment-metadata a:focus, .comment-metadata a:hover, .comment-metadata a.comment-edit-link:focus, .comment-metadata a.comment-edit-link:hover, .comment-reply-link:focus, .comment-reply-link:hover, .widget_authors a:focus strong, .widget_authors a:hover strong, .entry-title a:focus, .entry-title a:hover, .entry-meta a:focus, .entry-meta a:hover, .page-links a:focus .page-number, .page-links a:hover .page-number, .entry-footer a:focus, .entry-footer a:hover, .entry-footer .cat-links a:focus, .entry-footer .cat-links a:hover, .entry-footer .tags-links a:focus, .entry-footer .tags-links a:hover, .post-navigation a:focus, .post-navigation a:hover, .pagination a:not(.prev):not(.next):focus, .pagination a:not(.prev):not(.next):hover, .comments-pagination a:not(.prev):not(.next):focus, .comments-pagination a:not(.prev):not(.next):hover, .logged-in-as a:focus, .logged-in-as a:hover, a:focus .nav-title, a:hover .nav-title, .edit-link a:focus, .edit-link a:hover, .site-info a:focus, .site-info a:hover, .widget .widget-title a:focus, .widget .widget-title a:hover, .widget ul li a:focus, .widget ul li a:hover {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;	
+}
+nav.social-navigation {
+	float: right;	
+}
+.social-links-menu {
+	text-align: center; 
+}
 
-
+.menu-item a:hover {
+	color: #402436 !important;
+	background-color: #A6A1A6 !important; 
+}
 /**************************
 	MEDIA QUERIES
 **************************/
+
+@media (min-width: 22.5em){
+	nav.social-navigation {
+		padding-left: 5%; 
+		float: none; 
+	}
+	.site-info p {
+		margin-top: 0px; 
+	}
+}	
 
 @media (min-width: 30em) {
 	.site-branding {
@@ -173,6 +224,9 @@ footer {
 	}
 	.custom-textbox {
 		top: 16%;
+	}	
+	.site-info p {	
+	margin-top: 0%;
 	}
 }
 
@@ -209,11 +263,17 @@ footer {
 	
 	.menu-item {
 		bottom: 25px; 
-	}
+	}		
 	
-	.wp-block-column {
-		margin-left: 32px; 		
-	}	
+	nav.social-navigation {
+		padding-top: 1%; 
+		padding-left: 0px; 
+		float: right; 
+	}
+	.site-info {
+		
+		text-align: left;
+	}
 }
 
 @media (min-width: 48em) and (min-height: 64em){
