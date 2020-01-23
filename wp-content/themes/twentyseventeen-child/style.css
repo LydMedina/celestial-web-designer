@@ -139,8 +139,8 @@ header.entry-header h2.entry-title {
 	color: #402436;
 }
 
-h2.entry-title {
-	margin-bottom: 10%; 
+.entry-header .entry-title {
+    margin-bottom: 1.25em;
 }
 
 p.has-text-align-center {
