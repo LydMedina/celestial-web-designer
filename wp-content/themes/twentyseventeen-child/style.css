@@ -23,11 +23,6 @@ body {
 }
 
 /**************************
-	SITE BRANDING
-**************************/
-
-
-/**************************
 	SITE TITLE
 **************************/
 div.site-branding-text h1.site-title a {
@@ -112,22 +107,22 @@ div.custom-textbox-content p {
 /**************************
 	SECTIONS
 **************************/
-/* Portfolio */
+	/* Portfolio */
 #post-70 {
 	background: #A6A1A6; 
 	padding-top: 5%;
 }
-/* About */
+	/* About */
 #panel1 {
 	background: #FFFFFF;
 	padding-top: 5%;
 }
-/* Services */
+	/* Services */
 #panel2 {
 	background: #F2F2F2;
 	padding-top: 5%;
 }
-/* Contact */
+	/* Contact */
 #panel3 {
 	background: #A6A1A6;
 	padding-top: 5%;
@@ -147,8 +142,6 @@ header.entry-header h2.entry-title {
 p.has-text-align-center {
 	font-family: 'Roboto Slab', serif !important;
 }
-
-
 
 /**************************
 	CONTACT FORM 7
@@ -282,8 +275,6 @@ nav.social-navigation {
 	}
 }
 
-
-
 @media (min-width: 48.875em) {
 	.wp-block-column:not(:first-child) {
     	margin-left: 0px;
@@ -325,26 +316,3 @@ nav.social-navigation {
 		font-size: 1.5rem !important; 
 	}
 }
-
-/*@media (min-width: 1400px){
-	.custom-textbox-content h1 {
-		font-size: 6vw !important;
-	}
-	
-	.custom-textbox-content p {
-		font-size: 4vw !important;
-	}
-	.custom-textbox {
-		left: 21%;
-    	right: 21%;
-    	top: 10%;
-	}
-	.site-branding .wrap {
-		padding-left: 10%;
-	}
-} */
-
-
-
-
-
