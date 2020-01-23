@@ -53,9 +53,13 @@ nav.main-navigation {
 	margin-left: auto; 
 }
 
+ul#top-menu.menu {
+	padding-left: 0px;
+}
+
 .menu {
 	background: #F2F2F2 !important;
-	text-transform: uppercase;
+	text-transform: uppercase;	
 }
 
 .menu-toggle {
