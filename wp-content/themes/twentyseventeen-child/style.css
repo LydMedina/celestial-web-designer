@@ -86,10 +86,6 @@ ul#top-menu.menu {
     top: 27%;	 
 }
 
-.custom-textbox-content {
-
-}
-
 div.custom-textbox-content h1 {
 	font-family: 'Roboto Slab', serif;	
 	color: #402436;
@@ -141,6 +137,10 @@ header.entry-header h2.entry-title {
 	font-size: 4vw !important; 
 	font-family: 'Righteous', cursive;
 	color: #402436;
+}
+
+h2.entry-title {
+	margin-bottom: 10%; 
 }
 
 p.has-text-align-center {
